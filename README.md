@@ -56,6 +56,8 @@
     ```
 
 * ホスト名は起動する度に変わる。
+* `package.json` の `engine` 指定に関して、IBM SDK for Node.js buildpack に含まれない推奨板 `8.11.1` などを指定してもダウンロードして組み込んでくれる。
+    - https://console.bluemix.net/docs/runtimes/nodejs/updates.html#latest_updates
 
 ## 参考資料
 * https://docs.cloudfoundry.org/concepts/http-routing.html#app-instance-routing
